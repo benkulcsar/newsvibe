@@ -1,0 +1,31 @@
+{
+  "name": "newsvibe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benkulcsar/newsvibe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benkulcsar/newsvibe/issues"
+  },
+  "homepage": "https://github.com/benkulcsar/newsvibe#readme",
+  "dependencies": {
+    "@aws-sdk/client-comprehend": "^3.826.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "globals": "^16.2.0"
+  }
+}
